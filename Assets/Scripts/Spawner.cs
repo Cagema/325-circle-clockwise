@@ -32,6 +32,6 @@ public class Spawner : MonoBehaviour
 
 	private Vector3 SetPosition()
 	{
-		return new Vector3(Random.Range(-GameManager.Single.RightUpperCorner.x + 1, GameManager.Single.RightUpperCorner.x - 1), -GameManager.Single.RightUpperCorner.y - 1, 0);
+		return new Vector3(Random.Range(-GameManager.Single.RightUpperCorner.x + 1, GameManager.Single.RightUpperCorner.x - 1), GameManager.Single.RightUpperCorner.y + 1, 0);
 	}
 }

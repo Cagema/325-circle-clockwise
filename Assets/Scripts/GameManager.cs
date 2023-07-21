@@ -75,7 +75,7 @@ public class GameManager : MonoBehaviour
 			}
 
 			_speed += 0.02f;
-			if (_interval > 0.7f) _interval -= 0.01f;
+			if (_interval > 1f) _interval -= 0.01f;
 
 			_timeLeft = _maxTime;
 			_gameUI.UpdateTexts();
